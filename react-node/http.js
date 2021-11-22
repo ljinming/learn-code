@@ -1,18 +1,5 @@
 const http = require('http');
 const fs = require('fs');
-
-// /*-----------创建一个简单的服务器------*/
-
-// const server = http.createServer((request, response) => {
-//   // request 可以获取请求参数
-//   // response 对该请求有一个回复
-
-//   response.end('hello'); // 打开端口号，即显示end() 的参数
-//   //console.log('====33,response', getResponseList(response));
-//   /*
-//         req? 为什么使用end函数，而不是response='hello'
-//         getResponseList(response)
-
 //     */
 // });
 
