@@ -93,3 +93,11 @@ Promise.myAll([a, b, c])
   .catch((val) => {
     console.log('==myAll==333', val);
   });
+
+function compose(...args) {
+  return args.reduce((a, b) => {
+    return (...args) => {
+      return a(b(...args));
+    };
+  });
+}
